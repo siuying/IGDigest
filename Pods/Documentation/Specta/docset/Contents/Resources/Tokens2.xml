@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SPTExampleGroup.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SPTExampleGroup</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SPTExampleGroup/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/setRoot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SPTExampleGroup *root</Declaration>
+			
+			
+			<Anchor>//api/name/root</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SPTExampleGroup/root</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SPTExampleGroup *root</Declaration>
+			
+			
+			<Anchor>//api/name/root</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/setParent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SPTExampleGroup *parent</Declaration>
+			
+			
+			<Anchor>//api/name/parent</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SPTExampleGroup/parent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SPTExampleGroup *parent</Declaration>
+			
+			
+			<Anchor>//api/name/parent</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/setChildren:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *children</Declaration>
+			
+			
+			<Anchor>//api/name/children</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SPTExampleGroup/children</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *children</Declaration>
+			
+			
+			<Anchor>//api/name/children</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/setBeforeAllArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *beforeAllArray</Declaration>
+			
+			
+			<Anchor>//api/name/beforeAllArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SPTExampleGroup/beforeAllArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *beforeAllArray</Declaration>
+			
+			
+			<Anchor>//api/name/beforeAllArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/setAfterAllArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *afterAllArray</Declaration>
+			
+			
+			<Anchor>//api/name/afterAllArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SPTExampleGroup/afterAllArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *afterAllArray</Declaration>
+			
+			
+			<Anchor>//api/name/afterAllArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/setBeforeEachArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *beforeEachArray</Declaration>
+			
+			
+			<Anchor>//api/name/beforeEachArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SPTExampleGroup/beforeEachArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *beforeEachArray</Declaration>
+			
+			
+			<Anchor>//api/name/beforeEachArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/setAfterEachArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *afterEachArray</Declaration>
+			
+			
+			<Anchor>//api/name/afterEachArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SPTExampleGroup/afterEachArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *afterEachArray</Declaration>
+			
+			
+			<Anchor>//api/name/afterEachArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/setSharedExamples:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *sharedExamples</Declaration>
+			
+			
+			<Anchor>//api/name/sharedExamples</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SPTExampleGroup/sharedExamples</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *sharedExamples</Declaration>
+			
+			
+			<Anchor>//api/name/sharedExamples</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/setExampleCount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) unsigned int exampleCount</Declaration>
+			
+			
+			<Anchor>//api/name/exampleCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SPTExampleGroup/exampleCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) unsigned int exampleCount</Declaration>
+			
+			
+			<Anchor>//api/name/exampleCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/setRanExampleCount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) unsigned int ranExampleCount</Declaration>
+			
+			
+			<Anchor>//api/name/ranExampleCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SPTExampleGroup/ranExampleCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) unsigned int ranExampleCount</Declaration>
+			
+			
+			<Anchor>//api/name/ranExampleCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SPTExampleGroup/setAsyncSpecTimeout:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>+ (void)setAsyncSpecTimeout:(NSTimeInterval)timeout</Declaration>
+			
+			
+			<Anchor>//api/name/setAsyncSpecTimeout:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/initWithName:parent:root:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithName:(NSString *)name parent:(SPTExampleGroup *)parent root:(SPTExampleGroup *)root</Declaration>
+			
+			
+			<Anchor>//api/name/initWithName:parent:root:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/addExampleGroupWithName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>- (SPTExampleGroup *)addExampleGroupWithName:(NSString *)name</Declaration>
+			
+			
+			<Anchor>//api/name/addExampleGroupWithName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/addExampleWithName:block:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>- (SPTExample *)addExampleWithName:(NSString *)name block:(id)block</Declaration>
+			
+			
+			<Anchor>//api/name/addExampleWithName:block:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/addBeforeAllBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>- (void)addBeforeAllBlock:(SPTVoidBlock)block</Declaration>
+			
+			
+			<Anchor>//api/name/addBeforeAllBlock:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/addAfterAllBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAfterAllBlock:(SPTVoidBlock)block</Declaration>
+			
+			
+			<Anchor>//api/name/addAfterAllBlock:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/addBeforeEachBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>- (void)addBeforeEachBlock:(SPTVoidBlock)block</Declaration>
+			
+			
+			<Anchor>//api/name/addBeforeEachBlock:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/addAfterEachBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAfterEachBlock:(SPTVoidBlock)block</Declaration>
+			
+			
+			<Anchor>//api/name/addAfterEachBlock:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExampleGroup/compileExamplesWithNameStack:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExampleGroup.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)compileExamplesWithNameStack:(NSArray *)nameStack</Declaration>
+			
+			
+			<Anchor>//api/name/compileExamplesWithNameStack:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

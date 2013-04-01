@@ -1,0 +1,16 @@
+PODS:
+  - Expecta (0.2.1)
+  - OCMock (2.0.1)
+  - Specta (0.1.8)
+
+DEPENDENCIES:
+  - Expecta
+  - OCMock
+  - Specta
+
+SPEC CHECKSUMS:
+  Expecta: d46fb1bd78c90a83da0158b9b1e108de106e369f
+  OCMock: 77a9c4c57af6bf258a537d34cf09abf422affede
+  Specta: cf47ef9f8c3ae15a9d59ee5e74d2b560900d2249
+
+COCOAPODS: 0.17.0.rc6

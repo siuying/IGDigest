@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EXPFloatTuple.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EXPFloatTuple</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPFloatTuple.h</DeclaredIn>
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPFloatTuple/setValues:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPFloatTuple.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float *values</Declaration>
+			
+			
+			<Anchor>//api/name/values</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPFloatTuple/values</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPFloatTuple.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float *values</Declaration>
+			
+			
+			<Anchor>//api/name/values</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPFloatTuple/setSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPFloatTuple.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) size_t size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPFloatTuple/size</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPFloatTuple.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) size_t size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPFloatTuple/initWithFloatValues:size:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPFloatTuple.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithFloatValues:(float *)values size:(size_t)size</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFloatValues:size:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

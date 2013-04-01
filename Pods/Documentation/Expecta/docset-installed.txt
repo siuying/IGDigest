@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/siuying/Library/Developer/Shared/Documentation/DocSets/org.cocoapods.Expecta-0.2.1.docset
+Time: 2013-04-01 03:33:51 +0000

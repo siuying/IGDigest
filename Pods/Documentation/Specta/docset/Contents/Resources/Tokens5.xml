@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SPTSharedExampleGroups.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SPTSharedExampleGroups</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTSharedExampleGroups.h</DeclaredIn>
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SPTSharedExampleGroups/addSharedExampleGroupWithName:block:exampleGroup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTSharedExampleGroups.h</DeclaredIn>			
+			
+			<Declaration>+ (void)addSharedExampleGroupWithName:(NSString *)name block:(SPTDictionaryBlock)block exampleGroup:(SPTExampleGroup *)exampleGroup</Declaration>
+			
+			
+			<Anchor>//api/name/addSharedExampleGroupWithName:block:exampleGroup:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SPTSharedExampleGroups/sharedExampleGroupWithName:exampleGroup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTSharedExampleGroups.h</DeclaredIn>			
+			
+			<Declaration>+ (SPTDictionaryBlock)sharedExampleGroupWithName:(NSString *)name exampleGroup:(SPTExampleGroup *)exampleGroup</Declaration>
+			
+			
+			<Anchor>//api/name/sharedExampleGroupWithName:exampleGroup:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SPTSharedExampleGroups/defineSharedExampleGroups</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTSharedExampleGroups.h</DeclaredIn>			
+			
+			<Declaration>+ (void)defineSharedExampleGroups</Declaration>
+			
+			
+			<Anchor>//api/name/defineSharedExampleGroups</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

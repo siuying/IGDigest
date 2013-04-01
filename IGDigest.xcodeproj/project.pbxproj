@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5435871417093E00006F6732 /* NSString+SHA1Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5435871317093E00006F6732 /* NSString+SHA1Digest.m */; };
+		5435871617093E5F006F6732 /* SHA1DigestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5435871517093E5F006F6732 /* SHA1DigestSpec.m */; };
+		5435871917093EC6006F6732 /* NSData+SHA256Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5435871817093EC6006F6732 /* NSData+SHA256Digest.m */; };
+		5435871C17093F54006F6732 /* NSString+SHA256Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5435871B17093F54006F6732 /* NSString+SHA256Digest.m */; };
+		5435871E17093FA3006F6732 /* SHA256DigestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5435871D17093FA3006F6732 /* SHA256DigestSpec.m */; };
 		5463E4961709370E00932020 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463E4951709370E00932020 /* UIKit.framework */; };
 		5463E4981709370E00932020 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463E4971709370E00932020 /* Foundation.framework */; };
 		5463E49A1709370E00932020 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463E4991709370E00932020 /* CoreGraphics.framework */; };
@@ -22,7 +27,11 @@
 		5463E4BB1709370E00932020 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463E4951709370E00932020 /* UIKit.framework */; };
 		5463E4BC1709370E00932020 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463E4971709370E00932020 /* Foundation.framework */; };
 		5463E4C41709370E00932020 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5463E4C21709370E00932020 /* InfoPlist.strings */; };
-		5463E4C71709370E00932020 /* IGDigestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5463E4C61709370E00932020 /* IGDigestTests.m */; };
+		5463E4D31709386000932020 /* NSData+MD5Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5463E4D21709386000932020 /* NSData+MD5Digest.m */; };
+		5463E4D6170938AF00932020 /* NSData+SHA1Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5463E4D5170938AF00932020 /* NSData+SHA1Digest.m */; };
+		5463E4D8170939E000932020 /* MD5DigestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5463E4D7170939E000932020 /* MD5DigestSpec.m */; };
+		5463E4DB17093A8E00932020 /* NSString+MD5Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5463E4DA17093A8E00932020 /* NSString+MD5Digest.m */; };
+		8A84D090168943C2A07D5B5F /* libPods-IGDigestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB6317A9BE94BAE819F25F6 /* libPods-IGDigestTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EB6317A9BE94BAE819F25F6 /* libPods-IGDigestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IGDigestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5435871217093E00006F6732 /* NSString+SHA1Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SHA1Digest.h"; path = "Digest/NSString+SHA1Digest.h"; sourceTree = "<group>"; };
+		5435871317093E00006F6732 /* NSString+SHA1Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SHA1Digest.m"; path = "Digest/NSString+SHA1Digest.m"; sourceTree = "<group>"; };
+		5435871517093E5F006F6732 /* SHA1DigestSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHA1DigestSpec.m; sourceTree = "<group>"; };
+		5435871717093EC6006F6732 /* NSData+SHA256Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+SHA256Digest.h"; path = "Digest/NSData+SHA256Digest.h"; sourceTree = "<group>"; };
+		5435871817093EC6006F6732 /* NSData+SHA256Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+SHA256Digest.m"; path = "Digest/NSData+SHA256Digest.m"; sourceTree = "<group>"; };
+		5435871A17093F54006F6732 /* NSString+SHA256Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SHA256Digest.h"; path = "Digest/NSString+SHA256Digest.h"; sourceTree = "<group>"; };
+		5435871B17093F54006F6732 /* NSString+SHA256Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SHA256Digest.m"; path = "Digest/NSString+SHA256Digest.m"; sourceTree = "<group>"; };
+		5435871D17093FA3006F6732 /* SHA256DigestSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHA256DigestSpec.m; sourceTree = "<group>"; };
 		5463E4921709370E00932020 /* IGDigest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGDigest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5463E4951709370E00932020 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5463E4971709370E00932020 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,8 +74,14 @@
 		5463E4B91709370E00932020 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5463E4C11709370E00932020 /* IGDigestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IGDigestTests-Info.plist"; sourceTree = "<group>"; };
 		5463E4C31709370E00932020 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5463E4C51709370E00932020 /* IGDigestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGDigestTests.h; sourceTree = "<group>"; };
-		5463E4C61709370E00932020 /* IGDigestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGDigestTests.m; sourceTree = "<group>"; };
+		5463E4D11709386000932020 /* NSData+MD5Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+MD5Digest.h"; path = "Digest/NSData+MD5Digest.h"; sourceTree = "<group>"; };
+		5463E4D21709386000932020 /* NSData+MD5Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+MD5Digest.m"; path = "Digest/NSData+MD5Digest.m"; sourceTree = "<group>"; };
+		5463E4D4170938AF00932020 /* NSData+SHA1Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+SHA1Digest.h"; path = "Digest/NSData+SHA1Digest.h"; sourceTree = "<group>"; };
+		5463E4D5170938AF00932020 /* NSData+SHA1Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+SHA1Digest.m"; path = "Digest/NSData+SHA1Digest.m"; sourceTree = "<group>"; };
+		5463E4D7170939E000932020 /* MD5DigestSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5DigestSpec.m; sourceTree = "<group>"; };
+		5463E4D917093A8E00932020 /* NSString+MD5Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5Digest.h"; path = "Digest/NSString+MD5Digest.h"; sourceTree = "<group>"; };
+		5463E4DA17093A8E00932020 /* NSString+MD5Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5Digest.m"; path = "Digest/NSString+MD5Digest.m"; sourceTree = "<group>"; };
+		79A5AED1A52B48169D5DE8F7 /* Pods-IGDigestTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGDigestTests.xcconfig"; path = "Pods/Pods-IGDigestTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +102,7 @@
 				5463E4BA1709370E00932020 /* SenTestingKit.framework in Frameworks */,
 				5463E4BB1709370E00932020 /* UIKit.framework in Frameworks */,
 				5463E4BC1709370E00932020 /* Foundation.framework in Frameworks */,
+				8A84D090168943C2A07D5B5F /* libPods-IGDigestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +116,7 @@
 				5463E4BF1709370E00932020 /* IGDigestTests */,
 				5463E4941709370E00932020 /* Frameworks */,
 				5463E4931709370E00932020 /* Products */,
+				79A5AED1A52B48169D5DE8F7 /* Pods-IGDigestTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +136,7 @@
 				5463E4971709370E00932020 /* Foundation.framework */,
 				5463E4991709370E00932020 /* CoreGraphics.framework */,
 				5463E4B91709370E00932020 /* SenTestingKit.framework */,
+				0EB6317A9BE94BAE819F25F6 /* libPods-IGDigestTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +144,7 @@
 		5463E49B1709370E00932020 /* IGDigest */ = {
 			isa = PBXGroup;
 			children = (
+				5463E4D01709380F00932020 /* Digest */,
 				5463E4A41709370E00932020 /* IGAppDelegate.h */,
 				5463E4A51709370E00932020 /* IGAppDelegate.m */,
 				5463E4AD1709370E00932020 /* IGViewController.h */,
@@ -144,9 +172,10 @@
 		5463E4BF1709370E00932020 /* IGDigestTests */ = {
 			isa = PBXGroup;
 			children = (
-				5463E4C51709370E00932020 /* IGDigestTests.h */,
-				5463E4C61709370E00932020 /* IGDigestTests.m */,
 				5463E4C01709370E00932020 /* Supporting Files */,
+				5463E4D7170939E000932020 /* MD5DigestSpec.m */,
+				5435871517093E5F006F6732 /* SHA1DigestSpec.m */,
+				5435871D17093FA3006F6732 /* SHA256DigestSpec.m */,
 			);
 			path = IGDigestTests;
 			sourceTree = "<group>";
@@ -158,6 +187,25 @@
 				5463E4C21709370E00932020 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5463E4D01709380F00932020 /* Digest */ = {
+			isa = PBXGroup;
+			children = (
+				5463E4D11709386000932020 /* NSData+MD5Digest.h */,
+				5463E4D21709386000932020 /* NSData+MD5Digest.m */,
+				5463E4D917093A8E00932020 /* NSString+MD5Digest.h */,
+				5463E4DA17093A8E00932020 /* NSString+MD5Digest.m */,
+				5463E4D4170938AF00932020 /* NSData+SHA1Digest.h */,
+				5463E4D5170938AF00932020 /* NSData+SHA1Digest.m */,
+				5435871217093E00006F6732 /* NSString+SHA1Digest.h */,
+				5435871317093E00006F6732 /* NSString+SHA1Digest.m */,
+				5435871717093EC6006F6732 /* NSData+SHA256Digest.h */,
+				5435871817093EC6006F6732 /* NSData+SHA256Digest.m */,
+				5435871A17093F54006F6732 /* NSString+SHA256Digest.h */,
+				5435871B17093F54006F6732 /* NSString+SHA256Digest.m */,
+			);
+			name = Digest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +236,7 @@
 				5463E4B41709370E00932020 /* Frameworks */,
 				5463E4B51709370E00932020 /* Resources */,
 				5463E4B61709370E00932020 /* ShellScript */,
+				13471E5E13274CCBBAE4B10B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +300,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		13471E5E13274CCBBAE4B10B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-IGDigestTests-resources.sh\"\n";
+		};
 		5463E4B61709370E00932020 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,6 +337,12 @@
 				5463E4A21709370E00932020 /* main.m in Sources */,
 				5463E4A61709370E00932020 /* IGAppDelegate.m in Sources */,
 				5463E4AF1709370E00932020 /* IGViewController.m in Sources */,
+				5463E4D31709386000932020 /* NSData+MD5Digest.m in Sources */,
+				5463E4D6170938AF00932020 /* NSData+SHA1Digest.m in Sources */,
+				5463E4DB17093A8E00932020 /* NSString+MD5Digest.m in Sources */,
+				5435871417093E00006F6732 /* NSString+SHA1Digest.m in Sources */,
+				5435871917093EC6006F6732 /* NSData+SHA256Digest.m in Sources */,
+				5435871C17093F54006F6732 /* NSString+SHA256Digest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +350,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5463E4C71709370E00932020 /* IGDigestTests.m in Sources */,
+				5463E4D8170939E000932020 /* MD5DigestSpec.m in Sources */,
+				5435871617093E5F006F6732 /* SHA1DigestSpec.m in Sources */,
+				5435871E17093FA3006F6732 /* SHA256DigestSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +474,7 @@
 		};
 		5463E4CE1709370E00932020 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A5AED1A52B48169D5DE8F7 /* Pods-IGDigestTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IGDigest.app/IGDigest";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -420,6 +492,7 @@
 		};
 		5463E4CF1709370E00932020 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A5AED1A52B48169D5DE8F7 /* Pods-IGDigestTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IGDigest.app/IGDigest";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -454,6 +527,7 @@
 				5463E4CC1709370E00932020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5463E4CD1709370E00932020 /* Build configuration list for PBXNativeTarget "IGDigestTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +536,7 @@
 				5463E4CF1709370E00932020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

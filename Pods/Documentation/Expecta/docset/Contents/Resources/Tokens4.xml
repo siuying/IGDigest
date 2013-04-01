@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EXPExpect.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EXPExpect</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/setActualBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) EXPIdBlock actualBlock</Declaration>
+			
+			
+			<Anchor>//api/name/actualBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPExpect/actualBlock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) EXPIdBlock actualBlock</Declaration>
+			
+			
+			<Anchor>//api/name/actualBlock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/setActual:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) id actual</Declaration>
+			
+			
+			<Anchor>//api/name/actual</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPExpect/actual</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) id actual</Declaration>
+			
+			
+			<Anchor>//api/name/actual</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/setTestCase:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id testCase</Declaration>
+			
+			
+			<Anchor>//api/name/testCase</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPExpect/testCase</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id testCase</Declaration>
+			
+			
+			<Anchor>//api/name/testCase</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/setLineNumber:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int lineNumber</Declaration>
+			
+			
+			<Anchor>//api/name/lineNumber</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPExpect/lineNumber</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) int lineNumber</Declaration>
+			
+			
+			<Anchor>//api/name/lineNumber</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/setFileName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) char *fileName</Declaration>
+			
+			
+			<Anchor>//api/name/fileName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPExpect/fileName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) char *fileName</Declaration>
+			
+			
+			<Anchor>//api/name/fileName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/setNegative:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL negative</Declaration>
+			
+			
+			<Anchor>//api/name/negative</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPExpect/negative</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL negative</Declaration>
+			
+			
+			<Anchor>//api/name/negative</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/setAsynchronous:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL asynchronous</Declaration>
+			
+			
+			<Anchor>//api/name/asynchronous</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPExpect/asynchronous</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL asynchronous</Declaration>
+			
+			
+			<Anchor>//api/name/asynchronous</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/setTo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) EXPExpect *to</Declaration>
+			
+			
+			<Anchor>//api/name/to</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPExpect/to</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) EXPExpect *to</Declaration>
+			
+			
+			<Anchor>//api/name/to</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/setToNot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) EXPExpect *toNot</Declaration>
+			
+			
+			<Anchor>//api/name/toNot</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPExpect/toNot</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) EXPExpect *toNot</Declaration>
+			
+			
+			<Anchor>//api/name/toNot</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/setNotTo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) EXPExpect *notTo</Declaration>
+			
+			
+			<Anchor>//api/name/notTo</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPExpect/notTo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) EXPExpect *notTo</Declaration>
+			
+			
+			<Anchor>//api/name/notTo</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/setWill:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) EXPExpect *will</Declaration>
+			
+			
+			<Anchor>//api/name/will</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPExpect/will</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) EXPExpect *will</Declaration>
+			
+			
+			<Anchor>//api/name/will</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/setWillNot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) EXPExpect *willNot</Declaration>
+			
+			
+			<Anchor>//api/name/willNot</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPExpect/willNot</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) EXPExpect *willNot</Declaration>
+			
+			
+			<Anchor>//api/name/willNot</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/initWithActualBlock:testCase:lineNumber:fileName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithActualBlock:(id)actualBlock testCase:(id)testCase lineNumber:(int)lineNumber fileName:(char *)fileName</Declaration>
+			
+			
+			<Anchor>//api/name/initWithActualBlock:testCase:lineNumber:fileName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EXPExpect/expectWithActualBlock:testCase:lineNumber:fileName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>+ (EXPExpect *)expectWithActualBlock:(id)actualBlock testCase:(id)testCase lineNumber:(int)lineNumber fileName:(char *)fileName</Declaration>
+			
+			
+			<Anchor>//api/name/expectWithActualBlock:testCase:lineNumber:fileName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/applyMatcher:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>- (void)applyMatcher:(id&lt;EXPMatcher&gt;)matcher</Declaration>
+			
+			
+			<Anchor>//api/name/applyMatcher:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/applyMatcher:to:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPExpect.h</DeclaredIn>			
+			
+			<Declaration>- (void)applyMatcher:(id&lt;EXPMatcher&gt;)matcher to:(NSObject **)actual</Declaration>
+			
+			
+			<Anchor>//api/name/applyMatcher:to:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/setMatcherName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ExpectaSupport.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) void ( ^ ) matcherName</Declaration>
+			
+			
+			<Anchor>//api/name/matcherName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPExpect/matcherName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ExpectaSupport.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) void ( ^ ) matcherName</Declaration>
+			
+			
+			<Anchor>//api/name/matcherName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/setNot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPBackwardCompatibility.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) EXPExpect *Not</Declaration>
+			
+			
+			<Anchor>//api/name/Not</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPExpect/Not</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPBackwardCompatibility.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) EXPExpect *Not</Declaration>
+			
+			
+			<Anchor>//api/name/Not</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/setIsGoing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPBackwardCompatibility.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) EXPExpect *isGoing</Declaration>
+			
+			
+			<Anchor>//api/name/isGoing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPExpect/isGoing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPBackwardCompatibility.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) EXPExpect *isGoing</Declaration>
+			
+			
+			<Anchor>//api/name/isGoing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPExpect/setIsNotGoing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPBackwardCompatibility.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) EXPExpect *isNotGoing</Declaration>
+			
+			
+			<Anchor>//api/name/isNotGoing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPExpect/isNotGoing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPBackwardCompatibility.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) EXPExpect *isNotGoing</Declaration>
+			
+			
+			<Anchor>//api/name/isNotGoing</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

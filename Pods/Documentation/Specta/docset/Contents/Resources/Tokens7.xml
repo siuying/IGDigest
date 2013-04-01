@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/Specta.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/Specta</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Specta.h</DeclaredIn>
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

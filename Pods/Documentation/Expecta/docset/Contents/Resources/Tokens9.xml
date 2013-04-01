@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSObject+Expecta.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSObject(Expecta)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+Expecta.h</DeclaredIn>
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(Expecta)/failWithException:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+Expecta.h</DeclaredIn>			
+			
+			<Declaration>- (void)failWithException:(NSException *)exception</Declaration>
+			
+			
+			<Anchor>//api/name/failWithException:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EXPDoubleTuple.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EXPDoubleTuple</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPDoubleTuple.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPDoubleTuple/setValues:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPDoubleTuple.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) double *values</Declaration>
+			
+			
+			<Anchor>//api/name/values</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPDoubleTuple/values</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPDoubleTuple.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) double *values</Declaration>
+			
+			
+			<Anchor>//api/name/values</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPDoubleTuple/setSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPDoubleTuple.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) size_t size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EXPDoubleTuple/size</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPDoubleTuple.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) size_t size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EXPDoubleTuple/initWithDoubleValues:size:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EXPDoubleTuple.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithDoubleValues:(double *)values size:(size_t)size</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDoubleValues:size:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

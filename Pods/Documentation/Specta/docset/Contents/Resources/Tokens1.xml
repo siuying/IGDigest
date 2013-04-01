@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SPTExample.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SPTExample</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExample.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExample/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExample.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SPTExample/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExample.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExample/setBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExample.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) id block</Declaration>
+			
+			
+			<Anchor>//api/name/block</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SPTExample/block</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExample.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) id block</Declaration>
+			
+			
+			<Anchor>//api/name/block</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExample/setPending:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExample.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL pending</Declaration>
+			
+			
+			<Anchor>//api/name/pending</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SPTExample/pending</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExample.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL pending</Declaration>
+			
+			
+			<Anchor>//api/name/pending</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SPTExample/initWithName:block:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SPTExample.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithName:(NSString *)name block:(id)block</Declaration>
+			
+			
+			<Anchor>//api/name/initWithName:block:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>
