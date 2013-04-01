@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5463E4961709370E00932020 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463E4951709370E00932020 /* UIKit.framework */; };
+		5463E4981709370E00932020 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463E4971709370E00932020 /* Foundation.framework */; };
+		5463E49A1709370E00932020 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463E4991709370E00932020 /* CoreGraphics.framework */; };
+		5463E4A01709370E00932020 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5463E49E1709370E00932020 /* InfoPlist.strings */; };
+		5463E4A21709370E00932020 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5463E4A11709370E00932020 /* main.m */; };
+		5463E4A61709370E00932020 /* IGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5463E4A51709370E00932020 /* IGAppDelegate.m */; };
+		5463E4A81709370E00932020 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5463E4A71709370E00932020 /* Default.png */; };
+		5463E4AA1709370E00932020 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5463E4A91709370E00932020 /* Default@2x.png */; };
+		5463E4AC1709370E00932020 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5463E4AB1709370E00932020 /* Default-568h@2x.png */; };
+		5463E4AF1709370E00932020 /* IGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5463E4AE1709370E00932020 /* IGViewController.m */; };
+		5463E4B21709370E00932020 /* IGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5463E4B01709370E00932020 /* IGViewController.xib */; };
+		5463E4BA1709370E00932020 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463E4B91709370E00932020 /* SenTestingKit.framework */; };
+		5463E4BB1709370E00932020 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463E4951709370E00932020 /* UIKit.framework */; };
+		5463E4BC1709370E00932020 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463E4971709370E00932020 /* Foundation.framework */; };
+		5463E4C41709370E00932020 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5463E4C21709370E00932020 /* InfoPlist.strings */; };
+		5463E4C71709370E00932020 /* IGDigestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5463E4C61709370E00932020 /* IGDigestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5463E4BD1709370E00932020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5463E48A1709370E00932020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5463E4911709370E00932020;
+			remoteInfo = IGDigest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5463E4921709370E00932020 /* IGDigest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGDigest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5463E4951709370E00932020 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5463E4971709370E00932020 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5463E4991709370E00932020 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5463E49D1709370E00932020 /* IGDigest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IGDigest-Info.plist"; sourceTree = "<group>"; };
+		5463E49F1709370E00932020 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5463E4A11709370E00932020 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5463E4A31709370E00932020 /* IGDigest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IGDigest-Prefix.pch"; sourceTree = "<group>"; };
+		5463E4A41709370E00932020 /* IGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGAppDelegate.h; sourceTree = "<group>"; };
+		5463E4A51709370E00932020 /* IGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGAppDelegate.m; sourceTree = "<group>"; };
+		5463E4A71709370E00932020 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5463E4A91709370E00932020 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5463E4AB1709370E00932020 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5463E4AD1709370E00932020 /* IGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGViewController.h; sourceTree = "<group>"; };
+		5463E4AE1709370E00932020 /* IGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGViewController.m; sourceTree = "<group>"; };
+		5463E4B11709370E00932020 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IGViewController.xib; sourceTree = "<group>"; };
+		5463E4B81709370E00932020 /* IGDigestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGDigestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5463E4B91709370E00932020 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5463E4C11709370E00932020 /* IGDigestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IGDigestTests-Info.plist"; sourceTree = "<group>"; };
+		5463E4C31709370E00932020 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5463E4C51709370E00932020 /* IGDigestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGDigestTests.h; sourceTree = "<group>"; };
+		5463E4C61709370E00932020 /* IGDigestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGDigestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5463E48F1709370E00932020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5463E4961709370E00932020 /* UIKit.framework in Frameworks */,
+				5463E4981709370E00932020 /* Foundation.framework in Frameworks */,
+				5463E49A1709370E00932020 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5463E4B41709370E00932020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5463E4BA1709370E00932020 /* SenTestingKit.framework in Frameworks */,
+				5463E4BB1709370E00932020 /* UIKit.framework in Frameworks */,
+				5463E4BC1709370E00932020 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5463E4891709370E00932020 = {
+			isa = PBXGroup;
+			children = (
+				5463E49B1709370E00932020 /* IGDigest */,
+				5463E4BF1709370E00932020 /* IGDigestTests */,
+				5463E4941709370E00932020 /* Frameworks */,
+				5463E4931709370E00932020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5463E4931709370E00932020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5463E4921709370E00932020 /* IGDigest.app */,
+				5463E4B81709370E00932020 /* IGDigestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5463E4941709370E00932020 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5463E4951709370E00932020 /* UIKit.framework */,
+				5463E4971709370E00932020 /* Foundation.framework */,
+				5463E4991709370E00932020 /* CoreGraphics.framework */,
+				5463E4B91709370E00932020 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5463E49B1709370E00932020 /* IGDigest */ = {
+			isa = PBXGroup;
+			children = (
+				5463E4A41709370E00932020 /* IGAppDelegate.h */,
+				5463E4A51709370E00932020 /* IGAppDelegate.m */,
+				5463E4AD1709370E00932020 /* IGViewController.h */,
+				5463E4AE1709370E00932020 /* IGViewController.m */,
+				5463E4B01709370E00932020 /* IGViewController.xib */,
+				5463E49C1709370E00932020 /* Supporting Files */,
+			);
+			path = IGDigest;
+			sourceTree = "<group>";
+		};
+		5463E49C1709370E00932020 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5463E49D1709370E00932020 /* IGDigest-Info.plist */,
+				5463E49E1709370E00932020 /* InfoPlist.strings */,
+				5463E4A11709370E00932020 /* main.m */,
+				5463E4A31709370E00932020 /* IGDigest-Prefix.pch */,
+				5463E4A71709370E00932020 /* Default.png */,
+				5463E4A91709370E00932020 /* Default@2x.png */,
+				5463E4AB1709370E00932020 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5463E4BF1709370E00932020 /* IGDigestTests */ = {
+			isa = PBXGroup;
+			children = (
+				5463E4C51709370E00932020 /* IGDigestTests.h */,
+				5463E4C61709370E00932020 /* IGDigestTests.m */,
+				5463E4C01709370E00932020 /* Supporting Files */,
+			);
+			path = IGDigestTests;
+			sourceTree = "<group>";
+		};
+		5463E4C01709370E00932020 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5463E4C11709370E00932020 /* IGDigestTests-Info.plist */,
+				5463E4C21709370E00932020 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5463E4911709370E00932020 /* IGDigest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5463E4CA1709370E00932020 /* Build configuration list for PBXNativeTarget "IGDigest" */;
+			buildPhases = (
+				5463E48E1709370E00932020 /* Sources */,
+				5463E48F1709370E00932020 /* Frameworks */,
+				5463E4901709370E00932020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGDigest;
+			productName = IGDigest;
+			productReference = 5463E4921709370E00932020 /* IGDigest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5463E4B71709370E00932020 /* IGDigestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5463E4CD1709370E00932020 /* Build configuration list for PBXNativeTarget "IGDigestTests" */;
+			buildPhases = (
+				5463E4B31709370E00932020 /* Sources */,
+				5463E4B41709370E00932020 /* Frameworks */,
+				5463E4B51709370E00932020 /* Resources */,
+				5463E4B61709370E00932020 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5463E4BE1709370E00932020 /* PBXTargetDependency */,
+			);
+			name = IGDigestTests;
+			productName = IGDigestTests;
+			productReference = 5463E4B81709370E00932020 /* IGDigestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5463E48A1709370E00932020 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ignition Soft";
+			};
+			buildConfigurationList = 5463E48D1709370E00932020 /* Build configuration list for PBXProject "IGDigest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5463E4891709370E00932020;
+			productRefGroup = 5463E4931709370E00932020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5463E4911709370E00932020 /* IGDigest */,
+				5463E4B71709370E00932020 /* IGDigestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5463E4901709370E00932020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5463E4A01709370E00932020 /* InfoPlist.strings in Resources */,
+				5463E4A81709370E00932020 /* Default.png in Resources */,
+				5463E4AA1709370E00932020 /* Default@2x.png in Resources */,
+				5463E4AC1709370E00932020 /* Default-568h@2x.png in Resources */,
+				5463E4B21709370E00932020 /* IGViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5463E4B51709370E00932020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5463E4C41709370E00932020 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5463E4B61709370E00932020 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5463E48E1709370E00932020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5463E4A21709370E00932020 /* main.m in Sources */,
+				5463E4A61709370E00932020 /* IGAppDelegate.m in Sources */,
+				5463E4AF1709370E00932020 /* IGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5463E4B31709370E00932020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5463E4C71709370E00932020 /* IGDigestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5463E4BE1709370E00932020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5463E4911709370E00932020 /* IGDigest */;
+			targetProxy = 5463E4BD1709370E00932020 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5463E49E1709370E00932020 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5463E49F1709370E00932020 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5463E4B01709370E00932020 /* IGViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5463E4B11709370E00932020 /* en */,
+			);
+			name = IGViewController.xib;
+			sourceTree = "<group>";
+		};
+		5463E4C21709370E00932020 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5463E4C31709370E00932020 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5463E4C81709370E00932020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5463E4C91709370E00932020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5463E4CB1709370E00932020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IGDigest/IGDigest-Prefix.pch";
+				INFOPLIST_FILE = "IGDigest/IGDigest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5463E4CC1709370E00932020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IGDigest/IGDigest-Prefix.pch";
+				INFOPLIST_FILE = "IGDigest/IGDigest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5463E4CE1709370E00932020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IGDigest.app/IGDigest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IGDigest/IGDigest-Prefix.pch";
+				INFOPLIST_FILE = "IGDigestTests/IGDigestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5463E4CF1709370E00932020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IGDigest.app/IGDigest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IGDigest/IGDigest-Prefix.pch";
+				INFOPLIST_FILE = "IGDigestTests/IGDigestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5463E48D1709370E00932020 /* Build configuration list for PBXProject "IGDigest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5463E4C81709370E00932020 /* Debug */,
+				5463E4C91709370E00932020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5463E4CA1709370E00932020 /* Build configuration list for PBXNativeTarget "IGDigest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5463E4CB1709370E00932020 /* Debug */,
+				5463E4CC1709370E00932020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5463E4CD1709370E00932020 /* Build configuration list for PBXNativeTarget "IGDigestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5463E4CE1709370E00932020 /* Debug */,
+				5463E4CF1709370E00932020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5463E48A1709370E00932020 /* Project object */;
+}
