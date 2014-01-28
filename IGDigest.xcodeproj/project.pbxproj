@@ -30,7 +30,6 @@
 		5463E4AC1709370E00932020 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5463E4AB1709370E00932020 /* Default-568h@2x.png */; };
 		5463E4AF1709370E00932020 /* IGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5463E4AE1709370E00932020 /* IGViewController.m */; };
 		5463E4B21709370E00932020 /* IGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5463E4B01709370E00932020 /* IGViewController.xib */; };
-		5463E4BA1709370E00932020 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463E4B91709370E00932020 /* SenTestingKit.framework */; };
 		5463E4BB1709370E00932020 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463E4951709370E00932020 /* UIKit.framework */; };
 		5463E4BC1709370E00932020 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463E4971709370E00932020 /* Foundation.framework */; };
 		5463E4C41709370E00932020 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5463E4C21709370E00932020 /* InfoPlist.strings */; };
@@ -88,8 +87,7 @@
 		5463E4AD1709370E00932020 /* IGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGViewController.h; sourceTree = "<group>"; };
 		5463E4AE1709370E00932020 /* IGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGViewController.m; sourceTree = "<group>"; };
 		5463E4B11709370E00932020 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IGViewController.xib; sourceTree = "<group>"; };
-		5463E4B81709370E00932020 /* IGDigestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGDigestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5463E4B91709370E00932020 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5463E4B81709370E00932020 /* IGDigestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGDigestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5463E4C11709370E00932020 /* IGDigestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IGDigestTests-Info.plist"; sourceTree = "<group>"; };
 		5463E4C31709370E00932020 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5463E4D11709386000932020 /* NSData+MD5Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+MD5Digest.h"; path = "Digest/NSData+MD5Digest.h"; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 		5463E4DA17093A8E00932020 /* NSString+MD5Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5Digest.m"; path = "Digest/NSString+MD5Digest.m"; sourceTree = "<group>"; };
 		79A5AED1A52B48169D5DE8F7 /* Pods-IGDigestTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGDigestTests.xcconfig"; path = "Pods/Pods-IGDigestTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		857E6A9EED834857BCAA8AFF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		98E16299E3FE4C76AD66F824 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +116,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5463E4BA1709370E00932020 /* SenTestingKit.framework in Frameworks */,
 				5463E4BB1709370E00932020 /* UIKit.framework in Frameworks */,
 				5463E4BC1709370E00932020 /* Foundation.framework in Frameworks */,
 				8A84D090168943C2A07D5B5F /* libPods-IGDigestTests.a in Frameworks */,
@@ -152,7 +148,6 @@
 				5463E4941709370E00932020 /* Frameworks */,
 				5463E4931709370E00932020 /* Products */,
 				79A5AED1A52B48169D5DE8F7 /* Pods-IGDigestTests.xcconfig */,
-				98E16299E3FE4C76AD66F824 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,7 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				5463E4921709370E00932020 /* IGDigest.app */,
-				5463E4B81709370E00932020 /* IGDigestTests.octest */,
+				5463E4B81709370E00932020 /* IGDigestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,7 +166,6 @@
 				5463E4951709370E00932020 /* UIKit.framework */,
 				5463E4971709370E00932020 /* Foundation.framework */,
 				5463E4991709370E00932020 /* CoreGraphics.framework */,
-				5463E4B91709370E00932020 /* SenTestingKit.framework */,
 				0EB6317A9BE94BAE819F25F6 /* libPods-IGDigestTests.a */,
 				857E6A9EED834857BCAA8AFF /* libPods.a */,
 			);
@@ -259,7 +253,6 @@
 				5463E48E1709370E00932020 /* Sources */,
 				5463E48F1709370E00932020 /* Frameworks */,
 				5463E4901709370E00932020 /* Resources */,
-				FF30DD7B75A243EFA855A69E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,7 +280,7 @@
 			);
 			name = IGDigestTests;
 			productName = IGDigestTests;
-			productReference = 5463E4B81709370E00932020 /* IGDigestTests.octest */;
+			productReference = 5463E4B81709370E00932020 /* IGDigestTests.xctest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -368,20 +361,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-		FF30DD7B75A243EFA855A69E /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -549,7 +528,7 @@
 				INFOPLIST_FILE = "IGDigestTests/IGDigestTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
@@ -567,7 +546,7 @@
 				INFOPLIST_FILE = "IGDigestTests/IGDigestTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
