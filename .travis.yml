@@ -1,3 +1,6 @@
 rvm: 1.9.3
 language: objective-c
-script: xcodebuild -workspace IGDigest.xcworkspace -scheme IGDigest -sdk iphonesimulator test
+before_script:
+  - export LANG=en_US.UTF-8
+  - gem install xcpretty
+script: xcodebuild -workspace IGDigest.xcworkspace -scheme IGDigest -sdk iphonesimulator test | xcpretty -c; exit ${PIPESTATUS[0]}
