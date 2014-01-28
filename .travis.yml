@@ -1,6 +1,3 @@
-rvm: 2.0.0
-before_install: gem install cocoapods
+rvm: 1.9.3
 language: objective-c
-xcode_workspace: IGDigest.xcworkspace
-xcode_scheme: IGDigest
-xcode_sdk: iphonesimulator
+script: xcodebuild -workspace IGDigest.xcworkspace -scheme IGDigest -sdk iphonesimulator test
