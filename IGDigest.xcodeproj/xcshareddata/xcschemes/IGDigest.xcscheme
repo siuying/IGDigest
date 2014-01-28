@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5463E4B71709370E00932020"
-               BuildableName = "IGDigestTests.octest"
+               BuildableName = "IGDigestTests.xctest"
                BlueprintName = "IGDigestTests"
                ReferencedContainer = "container:IGDigest.xcodeproj">
             </BuildableReference>

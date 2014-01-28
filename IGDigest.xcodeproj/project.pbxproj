@@ -97,7 +97,7 @@
 		5463E4D7170939E000932020 /* MD5DigestSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5DigestSpec.m; sourceTree = "<group>"; };
 		5463E4D917093A8E00932020 /* NSString+MD5Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5Digest.h"; path = "Digest/NSString+MD5Digest.h"; sourceTree = "<group>"; };
 		5463E4DA17093A8E00932020 /* NSString+MD5Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5Digest.m"; path = "Digest/NSString+MD5Digest.m"; sourceTree = "<group>"; };
-		79A5AED1A52B48169D5DE8F7 /* Pods-IGDigestTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGDigestTests.xcconfig"; path = "Pods/Pods-IGDigestTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		548D9F241897834500EBC6BD /* Pods-IGDigestTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pods-IGDigestTests.xcconfig"; path = "Pods/Pods-IGDigestTests.xcconfig"; sourceTree = "<group>"; };
 		857E6A9EED834857BCAA8AFF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,7 @@
 				5463E4BF1709370E00932020 /* IGDigestTests */,
 				5463E4941709370E00932020 /* Frameworks */,
 				5463E4931709370E00932020 /* Products */,
-				79A5AED1A52B48169D5DE8F7 /* Pods-IGDigestTests.xcconfig */,
+				548D9F241897834500EBC6BD /* Pods-IGDigestTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -516,15 +516,23 @@
 		};
 		5463E4CE1709370E00932020 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79A5AED1A52B48169D5DE8F7 /* Pods-IGDigestTests.xcconfig */;
+			baseConfigurationReference = 548D9F241897834500EBC6BD /* Pods-IGDigestTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IGDigest.app/IGDigest";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IGDigest/IGDigest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/Expecta\"",
+					"\"${PODS_ROOT}/Headers/OCMock\"",
+					"\"${PODS_ROOT}/Headers/Specta\"",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "IGDigestTests/IGDigestTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -534,15 +542,23 @@
 		};
 		5463E4CF1709370E00932020 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79A5AED1A52B48169D5DE8F7 /* Pods-IGDigestTests.xcconfig */;
+			baseConfigurationReference = 548D9F241897834500EBC6BD /* Pods-IGDigestTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IGDigest.app/IGDigest";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IGDigest/IGDigest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/Expecta\"",
+					"\"${PODS_ROOT}/Headers/OCMock\"",
+					"\"${PODS_ROOT}/Headers/Specta\"",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "IGDigestTests/IGDigestTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
