@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0745F1E4D13FC4BBC2E37BE0 /* libPods-IGDigestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4209EFE06C1094665A4D00 /* libPods-IGDigestTests.a */; };
 		5435871417093E00006F6732 /* NSString+SHA1Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5435871317093E00006F6732 /* NSString+SHA1Digest.m */; };
 		5435871617093E5F006F6732 /* SHA1DigestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5435871517093E5F006F6732 /* SHA1DigestSpec.m */; };
 		5435871917093EC6006F6732 /* NSData+SHA256Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5435871817093EC6006F6732 /* NSData+SHA256Digest.m */; };
@@ -37,7 +38,6 @@
 		5463E4D6170938AF00932020 /* NSData+SHA1Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5463E4D5170938AF00932020 /* NSData+SHA1Digest.m */; };
 		5463E4D8170939E000932020 /* MD5DigestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5463E4D7170939E000932020 /* MD5DigestSpec.m */; };
 		5463E4DB17093A8E00932020 /* NSString+MD5Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5463E4DA17093A8E00932020 /* NSString+MD5Digest.m */; };
-		8A84D090168943C2A07D5B5F /* libPods-IGDigestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB6317A9BE94BAE819F25F6 /* libPods-IGDigestTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EB6317A9BE94BAE819F25F6 /* libPods-IGDigestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IGDigestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5435871217093E00006F6732 /* NSString+SHA1Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SHA1Digest.h"; path = "Digest/NSString+SHA1Digest.h"; sourceTree = "<group>"; };
 		5435871317093E00006F6732 /* NSString+SHA1Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SHA1Digest.m"; path = "Digest/NSString+SHA1Digest.m"; sourceTree = "<group>"; };
 		5435871517093E5F006F6732 /* SHA1DigestSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHA1DigestSpec.m; sourceTree = "<group>"; };
@@ -97,8 +96,9 @@
 		5463E4D7170939E000932020 /* MD5DigestSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5DigestSpec.m; sourceTree = "<group>"; };
 		5463E4D917093A8E00932020 /* NSString+MD5Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5Digest.h"; path = "Digest/NSString+MD5Digest.h"; sourceTree = "<group>"; };
 		5463E4DA17093A8E00932020 /* NSString+MD5Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5Digest.m"; path = "Digest/NSString+MD5Digest.m"; sourceTree = "<group>"; };
-		548D9F241897834500EBC6BD /* Pods-IGDigestTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pods-IGDigestTests.xcconfig"; path = "Pods/Pods-IGDigestTests.xcconfig"; sourceTree = "<group>"; };
-		857E6A9EED834857BCAA8AFF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FCB58CD9702A4E100B7FB44 /* Pods-IGDigestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGDigestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGDigestTests/Pods-IGDigestTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D791B58F9627B582DE402AE /* Pods-IGDigestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGDigestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGDigestTests/Pods-IGDigestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC4209EFE06C1094665A4D00 /* libPods-IGDigestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IGDigestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,13 +118,22 @@
 			files = (
 				5463E4BB1709370E00932020 /* UIKit.framework in Frameworks */,
 				5463E4BC1709370E00932020 /* Foundation.framework in Frameworks */,
-				8A84D090168943C2A07D5B5F /* libPods-IGDigestTests.a in Frameworks */,
+				0745F1E4D13FC4BBC2E37BE0 /* libPods-IGDigestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D5B1A87B3B801E18B44BCE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D791B58F9627B582DE402AE /* Pods-IGDigestTests.debug.xcconfig */,
+				6FCB58CD9702A4E100B7FB44 /* Pods-IGDigestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5435872B17094E1E006F6732 /* HMAC */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +156,7 @@
 				5463E4BF1709370E00932020 /* IGDigestTests */,
 				5463E4941709370E00932020 /* Frameworks */,
 				5463E4931709370E00932020 /* Products */,
-				548D9F241897834500EBC6BD /* Pods-IGDigestTests.xcconfig */,
+				1D5B1A87B3B801E18B44BCE3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,8 +175,7 @@
 				5463E4951709370E00932020 /* UIKit.framework */,
 				5463E4971709370E00932020 /* Foundation.framework */,
 				5463E4991709370E00932020 /* CoreGraphics.framework */,
-				0EB6317A9BE94BAE819F25F6 /* libPods-IGDigestTests.a */,
-				857E6A9EED834857BCAA8AFF /* libPods.a */,
+				AC4209EFE06C1094665A4D00 /* libPods-IGDigestTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -267,11 +275,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5463E4CD1709370E00932020 /* Build configuration list for PBXNativeTarget "IGDigestTests" */;
 			buildPhases = (
+				1A95B3EDEF419D154C524282 /* Check Pods Manifest.lock */,
 				5463E4B31709370E00932020 /* Sources */,
 				5463E4B41709370E00932020 /* Frameworks */,
 				5463E4B51709370E00932020 /* Resources */,
 				5463E4B61709370E00932020 /* ShellScript */,
-				13471E5E13274CCBBAE4B10B /* Copy Pods Resources */,
+				A6EE85D6761AF31934594BB1 /* Embed Pods Frameworks */,
+				845002979BBBD22778E27895 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,7 +291,7 @@
 			name = IGDigestTests;
 			productName = IGDigestTests;
 			productReference = 5463E4B81709370E00932020 /* IGDigestTests.xctest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -335,19 +345,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		13471E5E13274CCBBAE4B10B /* Copy Pods Resources */ = {
+		1A95B3EDEF419D154C524282 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-IGDigestTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 		5463E4B61709370E00932020 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -361,6 +372,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		845002979BBBD22778E27895 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGDigestTests/Pods-IGDigestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6EE85D6761AF31934594BB1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGDigestTests/Pods-IGDigestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -516,7 +557,7 @@
 		};
 		5463E4CE1709370E00932020 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 548D9F241897834500EBC6BD /* Pods-IGDigestTests.xcconfig */;
+			baseConfigurationReference = 9D791B58F9627B582DE402AE /* Pods-IGDigestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IGDigest.app/IGDigest";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -542,7 +583,7 @@
 		};
 		5463E4CF1709370E00932020 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 548D9F241897834500EBC6BD /* Pods-IGDigestTests.xcconfig */;
+			baseConfigurationReference = 6FCB58CD9702A4E100B7FB44 /* Pods-IGDigestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IGDigest.app/IGDigest";
 				FRAMEWORK_SEARCH_PATHS = (

@@ -8,6 +8,7 @@
 
 #import "NSString+MD5HMAC.h"
 #import "IGHMAC.h"
+#include <CommonCrypto/CommonHMAC.h>
 
 @implementation NSString (MD5HMAC)
 

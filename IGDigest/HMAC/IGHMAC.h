@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#include <CommonCrypto/CommonDigest.h>
-#include <CommonCrypto/CommonHMAC.h>
 
 @interface IGHMAC : NSObject
 
-+(NSString *)HMACWithMessage:(NSString*)message key:(NSString*)key encoding:(NSStringEncoding)encoding algorithm:(CCHmacAlgorithm)algorithm digestLength:(NSInteger)digestLength;
++(NSString *)HMACWithMessage:(NSString*)message
+                         key:(NSString*)key
+                    encoding:(NSStringEncoding)encoding
+                   algorithm:(uint32_t)algorithm
+                digestLength:(NSInteger)digestLength;
 
 @end

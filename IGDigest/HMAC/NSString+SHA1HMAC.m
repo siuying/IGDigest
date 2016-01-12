@@ -8,6 +8,7 @@
 
 #import "NSString+SHA1HMAC.h"
 #import "IGHMAC.h"
+#include <CommonCrypto/CommonHMAC.h>
 
 @implementation NSString (SHA1HMAC)
 
