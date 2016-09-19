@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name     = 'IGDigest'
-  s.version  = '1.1.3'
-  s.summary  = 'Provides convenient wrappers for popular message digest formats (MD5, SHA1 and SHA256) and HMAC (Hash-based message authentication code).'
+  s.version  = '1.1.4'
+  s.summary  = 'Provides convenient wrappers for popular message digest formats (MD5, SHA1, SHA256 and SHA512) and HMAC (Hash-based message authentication code).'
 
   s.homepage = 'https://github.com/siuying/IGWebLogger'
   s.author   = { 'Francis Chong' => 'francis@ignition.hk' }
