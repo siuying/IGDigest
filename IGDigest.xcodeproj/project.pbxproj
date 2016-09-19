@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0062BF1A1D8FDF90009D2C32 /* NSString+SHA512HMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0062BF191D8FDF90009D2C32 /* NSString+SHA512HMAC.m */; };
+		0062BF1F1D8FDF9E009D2C32 /* NSData+SHA512Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0062BF1C1D8FDF9E009D2C32 /* NSData+SHA512Digest.m */; };
+		0062BF201D8FDF9E009D2C32 /* NSString+SHA512Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0062BF1E1D8FDF9E009D2C32 /* NSString+SHA512Digest.m */; };
+		0062BF231D8FDFB1009D2C32 /* SHA512DigestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 0062BF211D8FDFB1009D2C32 /* SHA512DigestSpec.m */; };
+		0062BF241D8FDFB1009D2C32 /* SHA512HMACSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 0062BF221D8FDFB1009D2C32 /* SHA512HMACSpec.m */; };
 		0745F1E4D13FC4BBC2E37BE0 /* libPods-IGDigestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4209EFE06C1094665A4D00 /* libPods-IGDigestTests.a */; };
 		5435871417093E00006F6732 /* NSString+SHA1Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5435871317093E00006F6732 /* NSString+SHA1Digest.m */; };
 		5435871617093E5F006F6732 /* SHA1DigestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5435871517093E5F006F6732 /* SHA1DigestSpec.m */; };
@@ -51,6 +56,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0062BF181D8FDF90009D2C32 /* NSString+SHA512HMAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SHA512HMAC.h"; path = "HMAC/NSString+SHA512HMAC.h"; sourceTree = "<group>"; };
+		0062BF191D8FDF90009D2C32 /* NSString+SHA512HMAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SHA512HMAC.m"; path = "HMAC/NSString+SHA512HMAC.m"; sourceTree = "<group>"; };
+		0062BF1B1D8FDF9E009D2C32 /* NSData+SHA512Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+SHA512Digest.h"; path = "Digest/NSData+SHA512Digest.h"; sourceTree = "<group>"; };
+		0062BF1C1D8FDF9E009D2C32 /* NSData+SHA512Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+SHA512Digest.m"; path = "Digest/NSData+SHA512Digest.m"; sourceTree = "<group>"; };
+		0062BF1D1D8FDF9E009D2C32 /* NSString+SHA512Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SHA512Digest.h"; path = "Digest/NSString+SHA512Digest.h"; sourceTree = "<group>"; };
+		0062BF1E1D8FDF9E009D2C32 /* NSString+SHA512Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SHA512Digest.m"; path = "Digest/NSString+SHA512Digest.m"; sourceTree = "<group>"; };
+		0062BF211D8FDFB1009D2C32 /* SHA512DigestSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHA512DigestSpec.m; sourceTree = "<group>"; };
+		0062BF221D8FDFB1009D2C32 /* SHA512HMACSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHA512HMACSpec.m; sourceTree = "<group>"; };
 		5435871217093E00006F6732 /* NSString+SHA1Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SHA1Digest.h"; path = "Digest/NSString+SHA1Digest.h"; sourceTree = "<group>"; };
 		5435871317093E00006F6732 /* NSString+SHA1Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SHA1Digest.m"; path = "Digest/NSString+SHA1Digest.m"; sourceTree = "<group>"; };
 		5435871517093E5F006F6732 /* SHA1DigestSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHA1DigestSpec.m; sourceTree = "<group>"; };
@@ -141,6 +154,8 @@
 				5435873117095799006F6732 /* IGHMAC.m */,
 				5435872C17094E33006F6732 /* NSString+SHA256HMAC.h */,
 				5435872D17094E33006F6732 /* NSString+SHA256HMAC.m */,
+				0062BF181D8FDF90009D2C32 /* NSString+SHA512HMAC.h */,
+				0062BF191D8FDF90009D2C32 /* NSString+SHA512HMAC.m */,
 				54358739170958D2006F6732 /* NSString+SHA1HMAC.h */,
 				5435873A170958D2006F6732 /* NSString+SHA1HMAC.m */,
 				5435873C17095900006F6732 /* NSString+MD5HMAC.h */,
@@ -217,6 +232,8 @@
 				5435871517093E5F006F6732 /* SHA1DigestSpec.m */,
 				5435871D17093FA3006F6732 /* SHA256DigestSpec.m */,
 				5435872617094D9F006F6732 /* SHA256HMACSpec.m */,
+				0062BF211D8FDFB1009D2C32 /* SHA512DigestSpec.m */,
+				0062BF221D8FDFB1009D2C32 /* SHA512HMACSpec.m */,
 				5435873F17095938006F6732 /* SHA1HMACSpec.m */,
 				5435874117095942006F6732 /* MD5HMACSpec.m */,
 			);
@@ -247,6 +264,10 @@
 				5435871817093EC6006F6732 /* NSData+SHA256Digest.m */,
 				5435871A17093F54006F6732 /* NSString+SHA256Digest.h */,
 				5435871B17093F54006F6732 /* NSString+SHA256Digest.m */,
+				0062BF1B1D8FDF9E009D2C32 /* NSData+SHA512Digest.h */,
+				0062BF1C1D8FDF9E009D2C32 /* NSData+SHA512Digest.m */,
+				0062BF1D1D8FDF9E009D2C32 /* NSString+SHA512Digest.h */,
+				0062BF1E1D8FDF9E009D2C32 /* NSString+SHA512Digest.m */,
 			);
 			name = Digest;
 			sourceTree = "<group>";
@@ -275,13 +296,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5463E4CD1709370E00932020 /* Build configuration list for PBXNativeTarget "IGDigestTests" */;
 			buildPhases = (
-				1A95B3EDEF419D154C524282 /* Check Pods Manifest.lock */,
+				1A95B3EDEF419D154C524282 /* [CP] Check Pods Manifest.lock */,
 				5463E4B31709370E00932020 /* Sources */,
 				5463E4B41709370E00932020 /* Frameworks */,
 				5463E4B51709370E00932020 /* Resources */,
 				5463E4B61709370E00932020 /* ShellScript */,
-				A6EE85D6761AF31934594BB1 /* Embed Pods Frameworks */,
-				845002979BBBD22778E27895 /* Copy Pods Resources */,
+				A6EE85D6761AF31934594BB1 /* [CP] Embed Pods Frameworks */,
+				845002979BBBD22778E27895 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -345,14 +366,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A95B3EDEF419D154C524282 /* Check Pods Manifest.lock */ = {
+		1A95B3EDEF419D154C524282 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,14 +394,14 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-		845002979BBBD22778E27895 /* Copy Pods Resources */ = {
+		845002979BBBD22778E27895 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,14 +409,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGDigestTests/Pods-IGDigestTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A6EE85D6761AF31934594BB1 /* Embed Pods Frameworks */ = {
+		A6EE85D6761AF31934594BB1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,12 +433,15 @@
 			files = (
 				5463E4A21709370E00932020 /* main.m in Sources */,
 				5463E4A61709370E00932020 /* IGAppDelegate.m in Sources */,
+				0062BF1A1D8FDF90009D2C32 /* NSString+SHA512HMAC.m in Sources */,
 				5463E4AF1709370E00932020 /* IGViewController.m in Sources */,
 				5463E4D31709386000932020 /* NSData+MD5Digest.m in Sources */,
 				5463E4D6170938AF00932020 /* NSData+SHA1Digest.m in Sources */,
 				5463E4DB17093A8E00932020 /* NSString+MD5Digest.m in Sources */,
 				5435871417093E00006F6732 /* NSString+SHA1Digest.m in Sources */,
 				5435871917093EC6006F6732 /* NSData+SHA256Digest.m in Sources */,
+				0062BF201D8FDF9E009D2C32 /* NSString+SHA512Digest.m in Sources */,
+				0062BF1F1D8FDF9E009D2C32 /* NSData+SHA512Digest.m in Sources */,
 				5435871C17093F54006F6732 /* NSString+SHA256Digest.m in Sources */,
 				5435872E17094E33006F6732 /* NSString+SHA256HMAC.m in Sources */,
 				5435873217095799006F6732 /* IGHMAC.m in Sources */,
@@ -433,7 +457,9 @@
 				5463E4D8170939E000932020 /* MD5DigestSpec.m in Sources */,
 				5435871617093E5F006F6732 /* SHA1DigestSpec.m in Sources */,
 				5435871E17093FA3006F6732 /* SHA256DigestSpec.m in Sources */,
+				0062BF241D8FDFB1009D2C32 /* SHA512HMACSpec.m in Sources */,
 				5435872717094D9F006F6732 /* SHA256HMACSpec.m in Sources */,
+				0062BF231D8FDFB1009D2C32 /* SHA512DigestSpec.m in Sources */,
 				5435874017095938006F6732 /* SHA1HMACSpec.m in Sources */,
 				5435874217095942006F6732 /* MD5HMACSpec.m in Sources */,
 			);
